@@ -3,6 +3,10 @@
 
 Writes a single curiosity text (1-280 Unicode code points) to entry.txt in
 the output directory. Pure standard library, deterministic, no network.
+
+Why this text: a concrete scene (museum, guard, painted door) with a quiet,
+slow mystery that grows one step a day, in plain words with a lingering image
+— no stock wellness phrasing, no instruction telling the reader what to feel.
 """
 
 import hashlib
