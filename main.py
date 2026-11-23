@@ -4,18 +4,20 @@
 Writes a single curiosity text (1-280 Unicode code points) to entry.txt in
 the output directory. Pure standard library, deterministic, no network.
 
-Why this text: a concrete scene (museum, guard, painted door) with a quiet,
-slow mystery that grows one step a day, in plain words with a lingering image
-— no stock wellness phrasing, no instruction telling the reader what to feel.
+Why this text: an impossible photograph, stated calmly and plainly — the
+narrator has never been to the place or met the woman, yet both are laughing
+and neither looks surprised. Two open questions (how, and why unsurprised)
+with no answer offered, so the image keeps working after the last line.
+No stock wellness phrasing, no instruction telling the reader what to feel.
 """
 
 import hashlib
 import os
 
 TEXT = (
-    "In the museum's smallest room hangs a painting of a door. "
-    "Every morning the guard finds it open a little wider, and the "
-    "painted hallway one step longer."
+    "I found a photograph of myself at a place I have never been, "
+    "standing beside a woman I have never met. We are both laughing, "
+    "and neither of us looks surprised."
 )
 
 FILENAME = "entry.txt"
